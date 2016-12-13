@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BeTheDj</string>
+    <string name="hello_blank_fragment">Prueba castellano</string>
+
+    <string name="tabb1">MUSICA</string>
+    <string name="tabb2">CHAT</string>
+    <string name="tabb3">INFO</string>
+
+</resources>
