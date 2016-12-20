@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private ListView lvSongs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,25 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
-
-        String[] data = {
-                "Stressed Out - Twenty One Pilots",
-                "Entre Dos Tierras - Heroes del Silencio",
-                "Radio Clandestina - La Raiz",
-                "Adentro - Calle 13",
-                "John el Esquizofrenico - Calle 13",
-                "Y se fue - La Pegatina",
-                "La Dansa del Vestit - Txarango",
-                "International Love - Pitbull",
-                "The Less I Know The Better - Tame Impala"
-        };
-
-        lvSongs = (ListView) this.findViewById(R.id.lvSongs);
-
-        Adapter adapter;
-
-
-
 
     }
 
