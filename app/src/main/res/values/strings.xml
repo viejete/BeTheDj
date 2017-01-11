@@ -8,4 +8,10 @@
     <string name="tabb2">CHAT</string>
     <string name="tabb3">INFO</string>
 
+    <string name="title_activity_portada">PortadaActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="selectDisco">ENTRAR</string>
+
 </resources>
