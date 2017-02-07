@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.a53639858v.bethedj.PortadaActivityFragment"
-    tools:showIn="@layout/activity_portada">
-
+    tools:showIn="@layout/activity_portada"
+    android:background="@drawable/fondo_app">
 
     <Button
         android:text="@string/selectDisco"
@@ -29,7 +29,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText"
         android:layout_marginEnd="16dp"
